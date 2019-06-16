@@ -1,0 +1,19 @@
+{
+  "name": "dist",
+  "version": "1.0.0",
+  "description": "site",
+  "main": "index.js",
+  "homepage": "https://methege.github.io/portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "gh": "^1.17.5",
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2",
+    "pages": "0.0.16"
+  }
+}
