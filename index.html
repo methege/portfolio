@@ -59,7 +59,21 @@
         Matheus <span class="text-secondary">Rodrigues</div>
       </h1>
       <h2 class="sm-heading">
-        WebDesigner. Designer
+          <script type="text/javascript">
+            document.write("<font size=+3 style='color: white;'>");
+            var day = new Date();
+            var hr = day.getHours();
+            if (hr >= 0 && hr < 12) {
+                document.write("Bom Dia!");
+            } else if (hr == 12) {
+                document.write("Boa Tarde!!");
+            } else if (hr >= 12 && hr <= 17) {
+                document.write("Boa Tarde!");
+            } else {
+                document.write("Boa Noite!");
+            }
+            document.write;
+        </script>
       </h2>
       <div class="icons">
         <a href="twitter.com/methege">
@@ -69,7 +83,7 @@
           <i class="fab fa-facebook fa-2x"></i>
         </a>
         <a href="https://www.behance.net/methege/">
-          <i class="fab fa-behance"></i>
+          <i class="fab fa-behance fa-2x"></i>
         </a>
       </div>
     </main>
