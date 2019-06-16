@@ -8,8 +8,8 @@
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
+  "author": "matheus",
+  "license": "",
   "dependencies": {
     "gh": "^1.17.5",
     "gh-pages": "^1.2.0",
