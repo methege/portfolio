@@ -13,7 +13,7 @@
   "dependencies": {
     "gh": "^1.17.5",
     "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^7.0.0",
     "pages": "0.0.16"
   }
 }
